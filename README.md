@@ -1,3 +1,5 @@
+![image](https://github.com/TjRichmond/chess-timer-hw/assets/48665401/0eaa931e-551e-4bf0-a95f-ce588e978c60)
+
 # Features
 * Ultra-low power displays with animations
 * Rechargeable battery
