@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "840b053c-1f69-4901-93f0-7c2ca7d296e7")
+	(paper "A4")
+	(title_block
+		(title "Chess Timer")
+		(rev "A")
+		(company "tRichCS")
+	)
+	(lib_symbols)
+)

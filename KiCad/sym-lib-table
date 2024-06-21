@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Memory_Display")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Memory_Display.kicad_sym")(options "")(descr ""))
+  (lib (name "stm32u083rct6")(type "KiCad")(uri "${KIPRJMOD}/Symbols/stm32u083rct6.kicad_sym")(options "")(descr ""))
+  (lib (name "TDCR1060M")(type "KiCad")(uri "${KIPRJMOD}/Symbols/TDCR1060M.kicad_sym")(options "")(descr ""))
+)

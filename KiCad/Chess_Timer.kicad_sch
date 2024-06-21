@@ -1,0 +1,211 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "950a2065-695f-4d26-907b-e78dfd2b04e8")
+	(paper "A")
+	(title_block
+		(title "Chess Timer")
+		(rev "A")
+		(company "tRichCS")
+		(comment 1 "STM32U0 Powered Chess Timer")
+	)
+	(lib_symbols)
+	(sheet
+		(at 168.91 58.42)
+		(size 24.13 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1caf5123-9da0-454f-a032-b2ce08d4637c")
+		(property "Sheetname" "DISPLAY"
+			(at 168.91 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 168.91 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Chess_Timer"
+				(path "/950a2065-695f-4d26-907b-e78dfd2b04e8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 58.42)
+		(size 31.75 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "33a2fb3d-9be1-4b6d-8f1c-45f81a4b4519")
+		(property "Sheetname" "POWER"
+			(at 69.85 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 69.85 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Chess_Timer"
+				(path "/950a2065-695f-4d26-907b-e78dfd2b04e8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 58.42)
+		(size 36.83 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af7f9084-31bd-40b5-9945-60737ba151fd")
+		(property "Sheetname" "STM32U0"
+			(at 119.38 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32u0.kicad_sch"
+			(at 119.38 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 119.38 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f356b3a2-986c-47d5-bcff-0f68dbc0bcdd")
+		)
+		(pin "USB_D-" bidirectional
+			(at 119.38 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "565184ad-d244-4060-bfcb-ae95060e12c7")
+		)
+		(pin "VDDUSB" input
+			(at 119.38 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f143c9c2-6839-4210-852c-5dc82d85941c")
+		)
+		(pin "VBAT" input
+			(at 119.38 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f433de11-a22e-469e-9685-24849c84b128")
+		)
+		(instances
+			(project "Chess_Timer"
+				(path "/950a2065-695f-4d26-907b-e78dfd2b04e8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 120.65)
+		(size 34.29 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7dffafe-2b35-404b-be86-f5ba2a63b9a5")
+		(property "Sheetname" "BUTTONS"
+			(at 119.38 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 119.38 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Chess_Timer"
+				(path "/950a2065-695f-4d26-907b-e78dfd2b04e8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
